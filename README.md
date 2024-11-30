@@ -6,3 +6,19 @@ Features
 * generate a secret key: automatically generates and saves a secret key in Secret.key.
 * file encryption: encrypt any file using the secret key.
 * file decryption: decrypt encrypted files using the same secret key.
+
+## How to Use
+install Dependencies:
+Ensure you have the cryptography library installed. If not, install it with:
+> pip install cryptography
+
+Run the Script:
+> python <script_name>.py
+
+Choose an Option:
+
+Enter E to encrypt a file.
+Enter D to decrypt a file.
+
+* for encryption, provide the file name (including extension). A secret key will be generated automatically.
+* for decryption, ensure the Secret.key file exists in the same directory as the script.
