@@ -17,8 +17,5 @@ Run the Script:
 
 Choose an Option:
 
-Enter E to encrypt a file.
-Enter D to decrypt a file.
-
-* for encryption, provide the file name (including extension). A secret key will be generated automatically.
-* for decryption, ensure the Secret.key file exists in the same directory as the script.
+* Enter E to encrypt a file. provide the file name (including extension). A secret key will be generated automatically.
+* Enter D to decrypt a file. ensure the Secret.key file exists in the same directory as the script.
